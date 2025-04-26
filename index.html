@@ -1,0 +1,131 @@
+D’accord Étienne, je te prépare un fichier complet que tu pourras directement ouvrir sur l'ordinateur de Niels,
+avec Ganvié en fond d’écran et les animations comme on a prévu !
+
+Voilà le code final prêt à copier dans ton fichier .html :
+
+
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tourisme Découverte</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://www.afd.fr/sites/afd/files/2022-04/ganvie.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.6); /* menu semi-transparent */
+            padding: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            margin-top: 80px;
+            font-size: 48px;
+            opacity: 0;
+            transform: translateY(-30px);
+            animation: slideIn 1.5s forwards;
+        }
+        p {
+            font-size: 24px;
+            margin: 20px;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            animation-delay: 0.5s;
+        }
+        .start-button {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 25px;
+            background-color: #0077cc;
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            border-radius: 8px;
+            opacity: 0;
+            transform: scale(0.8);
+            animation: zoomIn 1.5s forwards;
+            animation-delay: 1s;
+        }
+        .start-button:hover {
+            background-color: #005fa3;
+        }
+
+        /* Animations */
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes zoomIn {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#">Abonnement</a>
+    <a href="#">Économie</a>
+    <a href="#">Culture</a>
+    <a href="#">Galerie</a>
+    <a href="#">Services</a>
+    <a href="#">Histoire</a>
+    <a href="#">Sports</a>
+    <a href="#">Contact</a>
+</nav>
+
+<h1>Bienvenue sur Tourisme Découverte</h1>
+<p>Explorez nos différentes sections pour en apprendre plus sur l'économie, la culture, l'histoire, et bien plus encore !</p>
+
+<a href="#" class="start-button">Commencer l'Aventure</a>
+
+</body>
+</html>
+
+
+---
+
+Instructions pour Niels :
+
+Crée un fichier nommé index.html.
+
+Copie-colle tout ce code dedans.
+
+Ouvre-le avec Google Chrome, Edge ou Firefox pour voir ton super site Tourisme Découverte avec Ganvié en arrière-plan !
+
+
+
+---
+
+Veux-tu que je te prépare aussi un petit fichier .zip directement prêt à télécharger et ouvrir ?
+(Comme ça tu auras juste à cliquer et lancer sur son PC.)
+Je peux te l'envoyer en 1 minute si tu veux.
+
